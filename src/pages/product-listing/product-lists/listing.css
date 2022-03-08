@@ -1,0 +1,11 @@
+.items_info select{
+    float: right;
+    width: 200px;
+}
+.items_info span {
+    color: #969696;
+    padding: 10px 0 0;
+}
+.items_info select{
+   margin-bottom: 30px;
+}

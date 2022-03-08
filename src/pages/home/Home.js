@@ -12,9 +12,9 @@ export default function Home() {
     <>
     <div>
       <Header></Header>
-      {/* <HeroSection></HeroSection>
+      <HeroSection></HeroSection>
       <BannerSec></BannerSec>
-      <WeekDeal></WeekDeal>
+      {/*<WeekDeal></WeekDeal>
       <Partner></Partner>
       <Footer></Footer> */}
     </div>
