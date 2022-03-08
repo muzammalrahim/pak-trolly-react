@@ -1,0 +1,64 @@
+
+.deal-of-week {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-left: 65px;
+	margin-right: 65px;
+}
+
+.countdown-timer {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.countdown-timer .cd-item {
+	display: inline-block;
+	background: #ffffff;
+	margin-right: 35px;
+	padding: 10px 14px;
+	border-radius: 5px;
+}
+
+.countdown-timer .cd-item:last-child {
+	margin-right: 0;
+}
+
+.countdown-timer .cd-item span {
+	color: #e7ab3c;
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 36px;
+}
+
+.countdown-timer .cd-item p {
+	font-size: 16px;
+	color: #b2b2b2;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+
+
+/* ------------------------------ Responsive Media Styles ---------------------------- */
+
+
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* Medium Device: 1200px */
+
+
+@media only screen and (max-width: 991px) {
+
+	.deal-of-week {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
