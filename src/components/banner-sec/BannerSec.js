@@ -1,5 +1,8 @@
 import React from 'react';
 import './banner-sec.css';
+import S1 from '../../images/s1.svg'
+import S2 from '../../images/s2.svg'
+import S3 from '../../images/s3.svg'
 
 export default function BannerSec() {
   return (
@@ -7,29 +10,47 @@ export default function BannerSec() {
     <div>
         <section>
             <div class="banner-section spad">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="single-banner">
-                                <img src="assets/img/banner-1.jpg" alt="" />
+
                                 <div class="inner-text">
-                                    <h4>Men’s</h4>
+                                   <p>Flat 10% Discount</p>
+                                   <h3>Best Lenovo Tablet</h3>
+                                   <button>Shop Now</button>
+                                </div>
+
+                                <div>
+                                    <img src={S1} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-banner">
-                                <img src="assets/img/banner-2.jpg" alt="" />
+
                                 <div class="inner-text">
-                                    <h4>Women’s</h4>
+                                   <p>Flat 10% Discount</p>
+                                   <h3>Best Lenovo Tablet</h3>
+                                   <button>Shop Now</button>
+                                </div>
+
+                                <div>
+                                    <img src={S2} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-banner">
-                                <img src="assets/img/banner-3.jpg" alt="" />
+
                                 <div class="inner-text">
-                                    <h4>Kid’s</h4>
+                                   <p>Flat 10% Discount</p>
+                                   <h3>Best Lenovo Tablet</h3>
+                                   <button>Shop Now</button>
+                                </div>
+
+                                <div>
+                                    <img src={S3} alt="" />
                                 </div>
                             </div>
                         </div>

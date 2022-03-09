@@ -1,6 +1,8 @@
 import React from 'react';
 import './search.css';
 import Logo from '../../../images/logo.svg';
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function Search() {
   return (
@@ -8,15 +10,15 @@ export default function Search() {
         <div className='search-main'>
         <div class="container">
                 <div class="inner-header">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-6 order-1">
+                    <div class="row" style={{overflow: "hidden"}}>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-1">
                             <div class="logo">
                                 <a href="#">
                                     <img src={Logo} alt='logo'/>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-12 col-sm-12 order-3 order-lg-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 order-3 order-lg-2">
                             <div class="advanced-search">
                                 <button type="button" class="category-btn">All Categories</button>
                                 <div class="input-group">
@@ -25,17 +27,19 @@ export default function Search() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 text-right col-md-6 col-sm-6 col-6 order-2 order-lg-3">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-2 order-lg-3">
+                            
                             <ul class="nav-right">
                                 <li class="heart-icon">
                                     <a href="#">
-                                    <i class="fa fa-heart"></i>
+                                        <FaRegHeart></FaRegHeart>
+                                    {/* <i class="fa-regular fa-heart"></i> */}
                                         <span>1</span>
                                     </a>
                                 </li>
                                 <li class="cart-icon">
                                     <a href="#">
-                                        <i class="icon_user_alt"></i>
+                                        <FaRegUser></FaRegUser>
                                         <span>3</span>
                                     </a>
                                     <div class="cart-hover">
@@ -79,7 +83,9 @@ export default function Search() {
                                         </div>
                                     </div>
                                 </li>
-                                <li class="cart-price">$150.00</li>
+                                <li class="cart-price nav-search">
+                                    <AiOutlineShoppingCart></AiOutlineShoppingCart>
+                                </li>
                             </ul>
                         </div>
                     </div>

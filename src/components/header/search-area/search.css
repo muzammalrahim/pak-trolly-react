@@ -16,10 +16,11 @@
 .inner-header .advanced-search {
 	height: 50px;
 	border: 1px solid #129CB8;
+	border-radius: 5px;
 }
 
 .inner-header .advanced-search .category-btn {
-	max-width: 30%;
+	max-width: 35%;
 	float: left;
 	background: transparent;
 	border: none;
@@ -27,7 +28,8 @@
 	padding-top: 11px;
 	padding-bottom: 13px;
 	padding-right: 60px;
-	font-size: 16px;
+	font-size: 14px;
+	font-weight: 600;
 	color: #3C3C3C;
 	position: relative;
 }
@@ -53,7 +55,7 @@
 }
 
 .inner-header .advanced-search .input-group {
-	max-width: 70%;
+	max-width: 65%;
 	height: 100%;
 }
 
@@ -102,7 +104,7 @@
 	top: -1px;
 	height: 15px;
 	width: 15px;
-	background: #e7ab3c;
+	background: #129cb8;
 	color: #ffffff;
 	border-radius: 50%;
 	font-size: 11px;
@@ -110,7 +112,9 @@
 	text-align: center;
 	line-height: 15px;
 }
-
+.inner-header .nav-right .nav-search svg{
+	font-size: 25px;
+}
 .inner-header .nav-right li.cart-icon {
 	position: relative;
 }
@@ -133,7 +137,7 @@
 	top: -1px;
 	height: 15px;
 	width: 15px;
-	background: #e7ab3c;
+	background: #129cb8;
 	color: #ffffff;
 	border-radius: 50%;
 	font-size: 11px;

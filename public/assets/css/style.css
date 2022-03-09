@@ -154,7 +154,9 @@ ol {
 	padding: 0;
 	margin: 0;
 }
-
+a {
+    text-decoration: none !important;
+}
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -596,4 +598,64 @@ ol {
 	.container {
 		max-width: 1170px;
 	}
+}
+
+
+/* ===========================check boxed============= */
+.form-group {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.form-group input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+
+.form-group label {
+	position: relative;
+	cursor: pointer;
+	margin: 0;
+}
+
+.form-group label:before {
+	content:'';
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #129CB8;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.form-group input:checked + label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	width: 6px;
+	height: 14px;
+	border: solid #129CB8;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+/* ================================input */
+input, select{
+	border: 1px solid #e6e6e6;
+	height: 45px;
+	border-radius: 5px;
+}
+textarea{
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
 }

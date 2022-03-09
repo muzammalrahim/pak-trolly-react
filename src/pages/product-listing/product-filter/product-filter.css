@@ -1,0 +1,122 @@
+.dropdown-menu {
+    position: inherit !important;
+    float: none;
+    border: none;
+    width: 100%;
+    padding: 0;
+    display: block;
+    transform: translate3d(0px, 17px, 0px);
+}
+.filter_btn {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    text-align: left;
+    color: #3c3c3c;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    font-weight: 500;
+}
+.filter_btn:hover {
+    color: #3c3c3c;
+}
+.filter_btn::after {
+    float: right;
+    margin: 10px 0;
+    display: none;
+}
+
+.filter_box {
+    border: 1px solid #e6e6e6;
+    padding: 15px ;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.filter_box h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.deal_hot span{
+    float: right;
+    color: #969696;
+    font-size: 18px;
+}
+.deal_hot{
+    margin-bottom: 15px;
+}
+.filter_box li.deal_hot:last-child {
+    margin: 0 !important;
+}
+webrouk-custom-range {
+	/* Expected variables from inside the component (optional) */
+	--primary-color: #129CB8;
+	--text-color: hsl(0, 100%, 100%);
+	--line-color: #e6e6e6;
+    --background-color: #129CB8 !important;
+}
+.color-selector li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.color-selector li span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+}
+.color_blue{
+    background: #006CFF;
+}
+.color_red{
+    background: #FC3E39;
+}
+.color_black{
+    background: #006CFF;
+}
+.color_yellow{
+    background: #FFF600;
+}
+.color_pink{
+    background: #FF00B4;
+}
+.rating_stars li i{
+    padding: 0 3px;
+}
+.rating_stars li .yellow{
+    color: #F3B004;
+}
+.rating_stars li .gray{
+    color: #e6e6e6;
+}
+.rating_star {
+    text-align: left;
+}
+
+@media (max-width: 767px){
+    .dropdown-menu {
+        position: absolute !important;
+        float: none;
+        border: none;
+        width: 100%;
+        padding: 0;
+        display: none;
+        transform: translate3d(0px, 61px, 0px) !important;
+    }
+    .filter_btn {
+        background: #129cb8;
+        border: 1px solid #129cb8;
+        width: 100%;
+        text-align: left;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 10px;
+        display: block;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+    .filter_btn::after {
+        display: block;
+    }
+}

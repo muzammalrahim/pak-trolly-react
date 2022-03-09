@@ -1,3 +1,6 @@
+a {
+    text-decoration: none !important;
+}
 .nav-item {
 	/* background: #252525; */
 	display: -webkit-box;
