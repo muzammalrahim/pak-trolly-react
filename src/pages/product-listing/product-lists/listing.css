@@ -149,6 +149,9 @@
         width: 100%;
         text-align: center;
     }
+    .items_info {
+        margin-top: 30px;
+    }
 }
 
 
