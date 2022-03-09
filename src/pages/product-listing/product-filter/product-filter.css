@@ -90,6 +90,9 @@ webrouk-custom-range {
 .rating_stars li .gray{
     color: #e6e6e6;
 }
+.rating_star {
+    text-align: left;
+}
 
 @media (max-width: 767px){
     .dropdown-menu {
@@ -102,15 +105,16 @@ webrouk-custom-range {
         transform: translate3d(0px, 61px, 0px) !important;
     }
     .filter_btn {
-        background: #ffffff;
-        border: 1px solid #e6e6e6;
+        background: #129cb8;
+        border: 1px solid #129cb8;
         width: 100%;
         text-align: left;
-        color: #3c3c3c;
+        color: #ffffff;
         font-size: 18px;
         padding: 10px;
         display: block;
         font-weight: 500;
+        border-radius: 5px;
     }
     .filter_btn::after {
         display: block;
