@@ -8,15 +8,15 @@ export default function Search() {
         <div className='search-main'>
         <div class="container">
                 <div class="inner-header">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-6 order-1">
+                    <div class="row" style={{overflow: "hidden"}}>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-1">
                             <div class="logo">
                                 <a href="#">
                                     <img src={Logo} alt='logo'/>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-12 col-sm-12 order-3 order-lg-2">
+                        <div class="col-lg-6 col-md-12 col-sm-12 order-3 order-lg-2">
                             <div class="advanced-search">
                                 <button type="button" class="category-btn">All Categories</button>
                                 <div class="input-group">
@@ -25,7 +25,7 @@ export default function Search() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 text-right col-md-6 col-sm-6 col-6 order-2 order-lg-3">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-2 order-lg-3">
                             <ul class="nav-right">
                                 <li class="heart-icon">
                                     <a href="#">

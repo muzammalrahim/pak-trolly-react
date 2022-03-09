@@ -12,6 +12,7 @@ export default function Home() {
     <>
     <div>
       <Header></Header>
+      
       {/* <HeroSection></HeroSection>
       <BannerSec></BannerSec>
       <WeekDeal></WeekDeal>
