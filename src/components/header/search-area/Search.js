@@ -1,6 +1,8 @@
 import React from 'react';
 import './search.css';
 import Logo from '../../../images/logo.svg';
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function Search() {
   return (
@@ -26,16 +28,18 @@ export default function Search() {
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-2 order-lg-3">
+                            
                             <ul class="nav-right">
                                 <li class="heart-icon">
                                     <a href="#">
-                                    <i class="fa fa-heart"></i>
+                                        <FaRegHeart></FaRegHeart>
+                                    {/* <i class="fa-regular fa-heart"></i> */}
                                         <span>1</span>
                                     </a>
                                 </li>
                                 <li class="cart-icon">
                                     <a href="#">
-                                        <i class="icon_user_alt"></i>
+                                        <FaRegUser></FaRegUser>
                                         <span>3</span>
                                     </a>
                                     <div class="cart-hover">
@@ -79,7 +83,9 @@ export default function Search() {
                                         </div>
                                     </div>
                                 </li>
-                                <li class="cart-price">$150.00</li>
+                                <li class="cart-price nav-search">
+                                    <AiOutlineShoppingCart></AiOutlineShoppingCart>
+                                </li>
                             </ul>
                         </div>
                     </div>

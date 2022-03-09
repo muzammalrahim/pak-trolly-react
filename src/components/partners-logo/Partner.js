@@ -1,5 +1,6 @@
 import React from 'react';
 import './partners.css';
+import Img1 from '../../images/logo-1.png'
 
 export default function Partner() {
   return (
@@ -9,7 +10,7 @@ export default function Partner() {
                 <div class="logo-carousel owl-carousel">
                     <div class="logo-item">
                         <div class="tablecell-inner">
-                            <img src="assets/img/logo-1.png" alt="" />
+                            <img src={Img1} alt="" />
                         </div>
                     </div>
                     <div class="logo-item">

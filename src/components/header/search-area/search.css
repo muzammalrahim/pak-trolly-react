@@ -104,7 +104,7 @@
 	top: -1px;
 	height: 15px;
 	width: 15px;
-	background: #e7ab3c;
+	background: #129cb8;
 	color: #ffffff;
 	border-radius: 50%;
 	font-size: 11px;
@@ -112,7 +112,9 @@
 	text-align: center;
 	line-height: 15px;
 }
-
+.inner-header .nav-right .nav-search svg{
+	font-size: 25px;
+}
 .inner-header .nav-right li.cart-icon {
 	position: relative;
 }
@@ -135,7 +137,7 @@
 	top: -1px;
 	height: 15px;
 	width: 15px;
-	background: #e7ab3c;
+	background: #129cb8;
 	color: #ffffff;
 	border-radius: 50%;
 	font-size: 11px;

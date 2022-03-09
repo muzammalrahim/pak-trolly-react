@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 
 import Home from "./pages/home/Home";
+import ProductListing from "./pages/product-listing/ProductListing";
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // import {
@@ -22,6 +23,14 @@ function App() {
           {/* <Route path="/lab" element={<Lab />} />
           <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
+
+        <Routes>
+          <Route path="/product-listing" element={<ProductListing />} />
+          {/* <Route path="/lab" element={<Lab />} />
+          <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        
+        
       </BrowserRouter>
         {/* <Router>
           <Switch>
