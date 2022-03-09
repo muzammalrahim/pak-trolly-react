@@ -1,0 +1,30 @@
+.pagination {
+    float: right;
+    margin-bottom: 40px;
+}
+.pagination li a {
+    border: 1px solid #3c3c3c;
+    padding: 5px 10px;
+    transition: 0.3s;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.pagination li a {
+    color: #3c3c3c;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.pagination li a:hover {
+    color:#ffffff;
+    transition: 0.3s;
+}
+.pagination .active-li a {
+    color: #ffffff;
+}
+
+.active-li a, .pagination li a:hover{
+    background: #129CB8;
+    color: #ffffff;
+    transition: 0.3s;
+}
