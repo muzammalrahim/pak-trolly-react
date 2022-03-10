@@ -2,6 +2,10 @@ import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Slick css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Home from "./pages/home/Home";
 import ProductListing from "./pages/product-listing/ProductListing";
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
