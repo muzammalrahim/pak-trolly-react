@@ -8,39 +8,42 @@ export default function HeroSection() {
       <>
         <section class="hero-section">
             <Carousel>
-                <Carousel.Item interval={10000}>
-                    <img
+                <Carousel.Item interval={1000} style={{ backgroundImage: `url(${Slide1})` }}>
+                    {/* <img
                     className="d-block w-100"
                     src={Slide1}
                     alt="First slide"
-                    />
+                    /> */}
                     <Carousel.Caption>
                     <p>Up To 40% Discount</p>
                     <h3>Microsoft Surface Book Laptop</h3>
+                    <button className='cta-btn'>Shop Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
-                <Carousel.Item interval={50000}>
+                <Carousel.Item interval={5000} style={{ backgroundImage: `url(${Slide1})` }}>
                     <img
                     className="d-block w-100"
                     src={Slide1}
                     alt="Second slide"
                     />
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Up To 40% Discount</p>
+                    <h3>Microsoft Surface Book Laptop</h3>
+                    <button className='cta-btn'>Shop Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={5000} style={{ backgroundImage: `url(${Slide1})` }}>
                     <img
                     className="d-block w-100"
                     src={Slide1}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>Up To 40% Discount</p>
+                    <h3>Microsoft Surface Book Laptop</h3>
+                    <button className='cta-btn'>Shop Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
