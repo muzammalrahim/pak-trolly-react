@@ -1,0 +1,67 @@
+.reviews-rating{
+    margin-bottom: 50px;
+}
+.reviews-rating strong {
+    font-size: 50px;
+    float: left;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.reviews-rating span {
+    font-size: 30px;
+    font-weight: 400;
+}
+.rating_stars li i{
+    padding: 0 3px;
+}
+.rating_stars li .yellow{
+    color: #F3B004;
+}
+.rating_stars li .gray{
+    color: #e6e6e6;
+}
+.rating_star {
+    text-align: left;
+}
+.hot_deal {
+    float: left;
+    padding-top: 27px;
+    padding-left: 30px;
+}
+h3{
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 30px 0;
+}
+.client_name strong{
+    font-size: 16px;
+    font-weight: 600;
+}
+.client_name p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.client_name span{
+    font-size: 14px;
+    color: #29B665;
+    margin: 0 0 0 15px;
+}
+.client_name{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.view-all{
+    text-align: center;
+    display: block;
+    color: #129CB8;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.view-all:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}

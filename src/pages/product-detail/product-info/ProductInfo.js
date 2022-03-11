@@ -11,7 +11,7 @@ const Productinfo = () => {
                 <span className="old_price">$123.21</span>
                 <span className="new_price">$123.21</span>
             </div>
-            <ul className="hot_deal rating_stars">
+            <ul className="review-starts-new">
                     <li className="deal_hot clearfix">
                         <div className="stars">
                             <i className="yellow"><FaStar /></i>

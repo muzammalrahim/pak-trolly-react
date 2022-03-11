@@ -9,9 +9,11 @@
 .security_bg li i{
     float: left;
     color: #129CB8;
+    width: 25px;
     font-size: 20px;
     vertical-align: top !important;
     margin: -4px 6px 0 0;
+    
 }
 .security_bg li {
     display: inline-block;
@@ -22,9 +24,26 @@
     float: left;
     font-size: 18px;
     color: #3c3c3c;
+    text-align: left;
+    width: 90%;
 }
 .security_bg li p span{
     color: #129CB8;
     font-weight: 600;
     margin-right: 5px;
+}
+@media (max-width:767px) {
+    .security_bg li {
+        display: block;
+        width: 100%;
+        margin: 5px auto;
+    }
+    .security_bg {
+        padding-bottom: 0;
+    }
+}
+@media (max-width:479px) {
+    .security_bg li p {
+        width: 86%;
+    }
 }

@@ -4,6 +4,8 @@ import ProductSlider from '../product-detail/product-slider/ProductSlider';
 import ProductInfo from '../product-detail/product-info/ProductInfo';
 import SecurityInfo from '../product-detail/security-detail/SecurityInfo';
 import TabDetail from '../product-detail/tab-detail/TabDetail';
+import Reviews from '../product-detail/reviews-rating/Reviews';
+import Question from '../product-detail/question-answer/Question';
 
 const Productdetails = () => {
     return (
@@ -20,6 +22,8 @@ const Productdetails = () => {
             </div>
             <SecurityInfo></SecurityInfo>
             <TabDetail></TabDetail>
+            <Reviews></Reviews>
+            <Question></Question>
         </div>
     </div>
     );
