@@ -1,0 +1,132 @@
+.price-tag span {
+    padding-right: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.old_price {
+    color: #969696;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.new_price {
+    font-size: 22px !important;
+    color: #129CB8;
+    font-weight: 600;
+}
+.cart_info h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.shopping_cat {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+.cart_info ul li {
+    display: inline-block;
+    float: left;
+}
+.cart_item {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+}
+.cart-info{
+    float: left;
+    padding-left: 10px;
+}
+.cart_item img {
+    width: 100%;
+    display: block;
+}
+.inf0-items.clearfix {
+    width: 65%;
+}
+.quantity.clearfix {
+    width: 26%;
+}
+.quantity input {
+    float: left;
+    width: 130px;
+}
+.quantity i {
+    float: right;
+    margin: 10px 0 0;
+    color: #A7DAE4;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.quantity i:hover {
+    color: #129CB8;
+    transition: all 0.3s;
+}
+.cart-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    border: none;
+}
+.size-info p {
+    margin: 0;
+    font-weight: 500;
+}
+.size-info p span {
+    margin-left: 10px;
+}
+.cart_info ul {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.continue-shopping{
+    color: #3c3c3c;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.continue-shopping:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+@media (max-width:992px){
+    .quantity input {
+        float: left;
+        width: 77px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:767px){
+    .cart-info {
+        width: 46%;
+    }
+}
+@media (max-width:479px){
+    .cart_info ul li {
+        display: block;
+        float: none;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .cart_item {
+        width: 70px;
+        height: 70px;
+    }
+    .cart-info {
+        width: 72%;
+    }
+    .cart-info h3 {
+        font-size: 16px;
+    }
+    .quantity input {
+        width: 155px;
+        margin-left: 0;
+        padding: 0 8px;
+    }
+}

@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Home from "./pages/home/Home";
 import ProductListing from "./pages/product-listing/ProductListing";
 import ProductDetails from "./pages/product-detail/ProductDetails";
+import Cart from "./pages/cart/Cart"
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // import {
@@ -38,6 +39,12 @@ function App() {
 
         <Routes>
           <Route path="/product-detail" element={<ProductDetails />} />
+          {/* <Route path="/lab" element={<Lab />} />
+          <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+
+        <Routes>
+          <Route path="/cart" element={<Cart />} />
           {/* <Route path="/lab" element={<Lab />} />
           <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
