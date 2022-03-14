@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import ProductListing from "./pages/product-listing/ProductListing";
 import ProductDetails from "./pages/product-detail/ProductDetails";
 import Cart from "./pages/cart/Cart"
+import PersonalDetail from "./pages/personal-detail/PersonalDetail";
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // import {
@@ -21,50 +22,54 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 
 function App() {
-  return (
-    <div className="App">
-      <div className='route-section'>
-      <BrowserRouter>
+return (
+<div className="App">
+    <div className='route-section'>
+    <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/lab" element={<Lab />} />
-          <Route render={() => <Navigate to="/" />} /> */}
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
 
         <Routes>
-          <Route path="/product-listing" element={<ProductListing />} />
-          {/* <Route path="/lab" element={<Lab />} />
-          <Route render={() => <Navigate to="/" />} /> */}
+            <Route path="/product-listing" element={<ProductListing />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
 
         <Routes>
-          <Route path="/product-detail" element={<ProductDetails />} />
-          {/* <Route path="/lab" element={<Lab />} />
-          <Route render={() => <Navigate to="/" />} /> */}
+            <Route path="/product-detail" element={<ProductDetails />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
 
         <Routes>
-          <Route path="/cart" element={<Cart />} />
-          {/* <Route path="/lab" element={<Lab />} />
-          <Route render={() => <Navigate to="/" />} /> */}
+            <Route path="/cart" element={<Cart />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
-        
-        
-      </BrowserRouter>
-        {/* <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-          </Switch>
-        </Router> */}
-      </div>
+
+        <Routes>
+            <Route path="/personal-detail" element={<PersonalDetail />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+    </BrowserRouter>
+    {/* <Router>
+        <Switch>
+        <Route exact path="/" component={Home} />
+        </Switch>
+    </Router> */}
     </div>
-  );
+</div>
+);
 }
 export default App;
 
 
 
-  {/* <section class="man-banner spad">
+{/* <section class="man-banner spad">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-8">
