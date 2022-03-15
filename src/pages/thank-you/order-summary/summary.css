@@ -1,0 +1,38 @@
+.summary-info h3{
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.summary-info {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+}
+.price-tag {
+    float: right;
+}
+.summary-info ul li {
+    margin-bottom: 10px;
+}
+.total_line {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 10px;
+    margin: 0 !important;
+}
+.order-btn2 {
+    background: #129cb8;
+    color: #ffffff;
+    border: 1px solid #129cb8;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 18px;
+    transition: all 0.3s;
+    margin: 50px auto;
+    display: block; 
+}
+.order-btn2:hover {
+    background: #ffffff;
+    color: #129cb8;
+    transition: all 0.3s;
+}

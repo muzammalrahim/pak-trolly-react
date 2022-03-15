@@ -33,6 +33,14 @@
 .review-starts-new {
     text-align: left;
 }
+.info_wrapper .price-tag {
+    display: block !important;
+    float: none;
+}
+.info_wrapper h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
 
 .review-starts-new .info-review{
     float: left;

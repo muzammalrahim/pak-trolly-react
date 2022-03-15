@@ -1,0 +1,21 @@
+.history-side{
+    margin-top: 30px;
+}
+.history-side li span{
+    color:#129CB8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+}
+.history-side li a {
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    transition: all 0.3s;
+}
+.history-side li a:hover {
+    color:#129CB8;
+    transition: all 0.3s;
+}

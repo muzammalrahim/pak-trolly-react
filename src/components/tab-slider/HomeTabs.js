@@ -15,7 +15,7 @@ export default function HomeTabs() {
         <div className='container'>
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
 
-            <Tab eventKey="profile" title="HeadPhone">
+            <Tab eventKey="profile" title="HeadPhonse">
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <div className='row'>
@@ -81,7 +81,6 @@ export default function HomeTabs() {
                                 </div>
                             </div>
                         </div>
-                    
                         <div className="col-md-3">
                             <div className="product_box_info">
                                 <div className="overlay_icons">
@@ -112,7 +111,6 @@ export default function HomeTabs() {
                                 </div>
                             </div>
                         </div>
-                        
                         <div className="col-md-3">
                             <div className="product_box_info">
                                 <div className="overlay_icons">

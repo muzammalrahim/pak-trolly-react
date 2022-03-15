@@ -9,7 +9,7 @@ const Payment = () => {
         <div>
             <h2>3. Shipping Method & Payment</h2>
             <form>
-            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 payment_tabs">
                 <Tab eventKey="profile" title="EasyPasa" className='easy' >
                     <div className="easy-pasa">
                         <h4>Experience easy payments – save your Easypaisa account as default method to pay! <br />

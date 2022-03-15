@@ -11,6 +11,8 @@ import ProductListing from "./pages/product-listing/ProductListing";
 import ProductDetails from "./pages/product-detail/ProductDetails";
 import Cart from "./pages/cart/Cart"
 import PersonalDetail from "./pages/personal-detail/PersonalDetail";
+import Thank from "./pages/thank-you/Thank";
+import Orderhistory from "./pages/order-history/OrderHistory";
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // import {
@@ -52,6 +54,16 @@ return (
 
         <Routes>
             <Route path="/personal-detail" element={<PersonalDetail />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        <Routes>
+            <Route path="/thank-you" element={<Thank />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        <Routes>
+            <Route path="/order-history" element={<Orderhistory />} />
             {/* <Route path="/lab" element={<Lab />} />
             <Route render={() => <Navigate to="/" />} /> */}
         </Routes>

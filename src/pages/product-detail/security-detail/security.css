@@ -16,8 +16,8 @@
     
 }
 .security_bg li {
-    display: inline-block;
-    width: 50%;
+    display: inline-block !important;
+    width: 50% !important;
     margin: 5px auto;
 }
 .security_bg li p{

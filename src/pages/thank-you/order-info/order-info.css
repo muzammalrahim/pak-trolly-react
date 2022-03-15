@@ -1,0 +1,22 @@
+.order-number{
+    margin:50px 0 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.order-thank{
+    text-align: center;
+}
+.order-number h3{
+    border: none;
+    margin: 0;
+    color: #129CB8;
+    font-size: 24px;
+}
+.order-thank p{
+    color: #000000;
+    font-size: 24px;
+}
+.amount-ready strong{
+    color: #129CB8;
+    font-size: 34px;
+}

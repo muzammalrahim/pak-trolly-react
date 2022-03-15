@@ -4,8 +4,8 @@ import './cart-aside.css';
 
 const Aside = () => {
     return (
-       <>
-        <div>
+        <>
+        <div className="aside_info">
             <div className="itens_info">
                 <ul>
                     <li className="clearfix">
@@ -31,9 +31,9 @@ const Aside = () => {
                 <i><FaBoxOpen /></i><p><span>Return policy</span>(edit with the Customer Reassurance module)</p>
             </li>
         </ul>
-    </div>
+            </div>
         </div>
-       </>
+        </>
     );
 }
 
