@@ -1,0 +1,108 @@
+.history-head {
+    font-size: 28px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 10px;
+}
+.edit-btn{
+	color:#ffffff;
+	background: #129CB8;
+	border: 1px solid #129CB8;
+	transition: all 03s;
+	font-size: 16px;
+	padding: 5px 35px;
+	height: 45px;
+	border-radius: 5px;
+	float: right;
+}
+.edit-btn:hover{
+	color:#129CB8;
+	background: #ffffff;
+	transition: all 03s;
+}
+.save-btn{
+	color:#ffffff;
+	background: #129CB8;
+	border: 1px solid #129CB8;
+	transition: all 03s;
+	font-size: 16px;
+	padding: 5px 35px;
+	height: 45px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.edit-btn-dual{
+	margin: 30px 0
+}
+.save-btn:hover{
+	color:#129CB8;
+	background: #ffffff;
+	transition: all 03s;
+}
+.cancel-btn{
+	color:#3c3c3c;
+	background: #e6e6e6;
+	border: 1px solid #e6e6e6;
+	transition: all 03s;
+	display: inline-block;
+	font-size: 16px;
+	padding: 5px 35px;
+	margin-right: 15px;
+	height: 45px;
+	border-radius: 5px;
+}
+.cancel-btn:hover{
+	color:#3c3c3c;
+	background: #ffffff;
+	transition: all 03s;
+}
+.account-info{
+	background: #f8f8f8;
+	border: 1px solid #e6e6e6;
+	margin: 30px 0 0;
+	padding: 20px 20px 10px;
+	border-radius: 5px;
+}
+.account-info ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+.account-info ul li label {
+    width: 170px;
+    font-size: 16px;
+    font-weight: 500;
+	color: #3c3c3c;
+}	
+.account-info h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #3c3c3c;
+}
+.mange-detail-ul li {
+    width: 50%;
+    display: inline-block !important;
+    padding: 0 20px 10px;
+}
+.text-info label {
+    margin-bottom: 10px;
+}
+@media (max-width:767px){
+	.mange-detail-ul li {
+		width: 100%;
+		padding: 0 0 10px;
+	}
+	.save-btn{
+		display: block;
+		width: 100%;
+	}
+	.edit-btn{
+		display: block;
+		width: 100%;
+	}
+	.cancel-btn{
+		display: block;
+		margin-bottom: 20px;
+		width: 100%;
+		margin-right: 0;
+	}
+}

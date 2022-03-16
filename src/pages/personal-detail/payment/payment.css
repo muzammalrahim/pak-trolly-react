@@ -99,7 +99,7 @@ h4{
 
 
 @media (max-width: 991px){
-    .nav-link {
+    .payment_tabs .nav-link {
         width: 120px;
         height: 130px;
         padding: 65px 5px 5px;
@@ -116,7 +116,7 @@ h4{
 }
 
 @media (max-width: 479px){
-    .nav-link {
+    .payment_tabs .nav-link {
         width: 74px;
         height: 100px;
         padding: 47px 5px 5px;
