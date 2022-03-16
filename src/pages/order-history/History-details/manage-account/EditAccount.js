@@ -4,7 +4,7 @@ import './manage-account.css';
 const EditAccount = () => {
     return (
         <>
-        <div className="manage-account-info">
+        {/* <div className="manage-account-info">
 			<h2 className="history-head">Manage Account</h2>
 			
 			<div className="account-info">
@@ -41,7 +41,28 @@ const EditAccount = () => {
 			<button type="button" className="cancel-btn">Cancel</button>
 			<button type="button" className="save-btn">Save</button>
 			</div>
-        </div>
+        </div> */}
+
+
+
+		<div className="container">
+			<div className="row">
+				<div className="col-md-6">
+					<h4>Welcome!   Please <a href="#" className="login-popup">Login</a> to continue</h4>
+					<label>Rember me?  <a href="#" className="login-popup">Register here</a></label>
+					<div className="">
+						<label>Phone Number or Email</label>
+						<input type="text" className="form-control" placeholder="Email number" />
+					</div>
+					<div className="">
+						<label>Password</label>
+						<input type="password" className="form-control" placeholder="Email number" />
+					</div>
+					<button className="save-btn">Login</button>
+				</div>
+				<div className="col-md-6"></div>
+			</div>
+		</div>
         </>
     );
 }
