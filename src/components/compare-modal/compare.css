@@ -1,0 +1,22 @@
+.pv-header{
+    border: 0;
+    padding-bottom: 0;
+    border-top: 3px solid #129CBB;
+}
+.cm-inner{
+    text-align: center;
+}
+.cm-inner .add-trolley{
+    float: unset;
+    background: #129cb8;
+    color: #ffffff;
+}
+.cm-inner svg{
+    font-size: 50px;
+    color: #129CB8;
+}
+.cm-inner p{
+    font-size: 20px;
+    color: #000000;
+    padding: 20px 0 10px 0;
+}

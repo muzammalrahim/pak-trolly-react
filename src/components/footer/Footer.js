@@ -51,7 +51,7 @@ export default function Footer() {
                                     <Link to="/cart">Cart</Link>  
                                 </li> 
                                 <li>
-                                    <Link to="thank-you">Thank You</Link>  
+                                    <Link to="/thank-you">Thank You</Link>  
                                 </li>    
                             </ul>
                         </div>
@@ -67,10 +67,10 @@ export default function Footer() {
                                     <Link to="/payment">Payment</Link>   
                                 </li> 
                                 <li>
-                                    <Link to="order-history">Order History </Link>  
+                                    <Link to="/order-history">Order History </Link>  
                                 </li> 
                                 <li>
-                                    <Link to="review-history">Review History </Link>  
+                                    <Link to="/review-history">Review History </Link>  
                                 </li> 
                                 <li>
                                     <Link to="#">Lorem Ipsum </Link>  

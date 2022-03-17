@@ -1,3 +1,6 @@
+a { 
+    text-decoration: none !important;
+}
 /* Add to Trolly btn */
 .trolly-btn{
     background: #129CB8;

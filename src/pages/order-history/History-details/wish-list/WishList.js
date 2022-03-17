@@ -4,10 +4,16 @@ import { FaHeart, FaExchangeAlt, FaEye, FaAngleDown } from "react-icons/fa";
 import PL1 from '../../../../../src/images/product_1.png';
 import PL2 from '../../../../../src/images/product_2.png';
 import PL3 from '../../../../../src/images/product_3.png';
+import Header from '../../../../components/header/Header';
+import BreadCrum from '../../../../components/bread-crums/BreadCrum';
+import Footer from '../../../../components/footer/Footer';
+import Subscribe from '../../../../components/subscribe/Subscribe';
 
 const WishList = () => {
     return (
         <>
+        <Header/>
+        <BreadCrum/>
         <div className="review-info container">
 			<h2 className="history-head">My WishList</h2>
 			<div className="row">
@@ -377,6 +383,8 @@ const WishList = () => {
                 </div>
             </div>
         </div>
+        <Subscribe/>
+        <Footer/>
         </>
     );
 }

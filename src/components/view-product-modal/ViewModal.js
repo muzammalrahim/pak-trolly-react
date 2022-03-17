@@ -1,5 +1,9 @@
  import React from 'react'
  import {Modal, Button} from 'react-bootstrap'
+ import { FaEye } from "react-icons/fa";
+ import Productinfo from '../../pages/product-detail/product-info/ProductInfo';
+ import Productslider from '../../pages/product-detail/product-slider/ProductSlider';
+ import './view-modal.css'
 //  import Button from 'react-bootstrap'
  
 class ViewModal extends React.Component {
@@ -18,21 +22,31 @@ class ViewModal extends React.Component {
    render() {
      return (
        <div>
-           <div>
-              <Button variant="primary" onClick={()=>{this.handleModal()}}>
-        Launch demo modal
-      </Button>
+           <div className='pv-modal'>
+              
+            <FaEye onClick={()=>{this.handleModal()}}></FaEye>
               <Modal show={this.state.show} onHide={()=>{this.handleModal()}}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body onHide={()=>{this.handleModal()}}>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-        <Button variant="primary" onClick={()=>{this.handleModal()}}>
-        close
-      </Button>
-        </Modal.Footer>
-      </Modal>
+                
+                <Modal.Header closeButton>
+                  {/* <Modal.Title>Modal heading</Modal.Title> */}
+                </Modal.Header>
+                <Modal.Body onHide={()=>{this.handleModal()}}>
+                  <div className='row'>
+                    <div className='col-sm-12 col-md-12 col-lg-6'>
+                      <Productslider/>
+                    </div>
+                    <div className='col-sm-12 col-md-12 col-lg-6'>
+                      <Productinfo/>  
+                    </div>
+                  </div>
+                  
+                </Modal.Body>
+                {/* <Modal.Footer>
+                <Button variant="primary" onClick={()=>{this.handleModal()}}>
+                close
+              </Button>
+                </Modal.Footer> */}
+            </Modal>
           </div>
        </div>
      )

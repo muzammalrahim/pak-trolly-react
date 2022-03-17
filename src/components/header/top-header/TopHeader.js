@@ -24,7 +24,7 @@ export default function TopHeader() {
                         <li className='px-3 border-right'>
                             <Link to="#"> Track Order </Link>
                         </li>
-                        <li className='pl-3'>
+                        <li className='pl-3 last-child'>
                             <Link to="#">  Gift Cards </Link>
                         </li>
                         

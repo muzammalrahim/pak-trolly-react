@@ -1,10 +1,16 @@
 import React from 'react';
+import BreadCrum from '../../../components/bread-crums/BreadCrum';
+import Footer from '../../../components/footer/Footer';
+import Header from '../../../components/header/Header';
+import Subscribe from '../../../components/subscribe/Subscribe';
 import './info.css';
 
 const PersonalInfo = () => {
     return (
         <>
-        <div className="Container">
+        <Header/>
+        <BreadCrum/>
+        <div className="container">
             <h2>1. Personal Information</h2>
             <form>
                 <div className="row client_info">
@@ -69,6 +75,8 @@ const PersonalInfo = () => {
                 </div>
             </form>
         </div>
+        <Subscribe/>
+        <Footer/>
         </>
     );
 }

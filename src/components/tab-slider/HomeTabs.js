@@ -9,6 +9,8 @@ import PL1 from '../../images/product_1.png';
 import PL2 from '../../images/product_2.png';
 import PL3 from '../../images/product_3.png';
 import ViewModal from '../view-product-modal/ViewModal'
+import CompareModal from '../compare-modal/CompareModal';
+import WishlistModal from '../wishlist-modal/WishlistModal';
 
 
 
@@ -59,9 +61,9 @@ export default function HomeTabs() {
                     <div className="product_box_info">
                         <span className="stock-tag">New</span>
                         <div className="overlay_icons">
-                            <span className="heart-icon"><FaHeart /></span>
-                            <span className="exchange-icon"><FaExchangeAlt /></span>
-                            <span className="eye-icon"><FaEye /><ViewModal/></span>
+                            <span className="heart-icon"><WishlistModal /></span>
+                            <span className="exchange-icon"><CompareModal/></span>
+                            <span className="eye-icon"><ViewModal/></span>
                         </div>
                         <div className="Product_img">
                             <img src={PL2} alt="product" />

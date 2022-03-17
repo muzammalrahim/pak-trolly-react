@@ -1,11 +1,17 @@
 import React from 'react';
 import './review.css';
 import PL1 from '../../../../../src/images/product_1.png';
+import Header from '../../../../components/header/Header';
+import BreadCrum from '../../../../components/bread-crums/BreadCrum';
+import Subscribe from '../../../../components/subscribe/Subscribe';
+import Footer from '../../../../components/footer/Footer';
 
 const ReviewHis = () => {
     return (
         <>
-        <div className="review-info">
+		<Header/>
+		<BreadCrum/>
+        <div className="review-info container">
 			<h2 className="history-head">My Reviews</h2>
         <table>
             <thead>
@@ -57,6 +63,8 @@ const ReviewHis = () => {
         </table>
 
         </div>
+		<Subscribe/>
+		<Footer/>
         </>
     );
 }

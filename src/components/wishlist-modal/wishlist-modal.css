@@ -1,0 +1,71 @@
+.wl-header{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.wl-inner{
+    text-align: center;
+}
+.wl-inner h5{
+    font-size: 24px;
+    color: #000000;
+}
+.wl-inner h5 a{
+    color: #129CB8;
+}
+.wl-inner p{
+    font-size: 20px;
+    color: #000000;
+}
+.wl-inner p a{
+    color: #129CB8;
+}
+.wl-inner .wm-form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 0 0 10px;
+}
+.social-login-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wm-btn{
+    height: 50px;
+    width: 200px;  
+}
+.f-btn{
+    background: #3B5998;
+    color: #ffffff;
+    border: none;
+    margin-right: 10px;
+}
+.f-btn svg{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 5px 0 0;
+}
+.g-btn{
+    background: #DB4A39;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+.g-btn svg{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 0 5px 0 0;
+}
+.form-btn .add-trolley{
+    background: #129cb8;
+    color: #ffffff; 
+    padding: 0px 50px;
+}
+.wl-fp{
+    float: right;
+    color: #006CFF;
+    font-size: 16px;
+}
+.login-with{
+    color: #969696;
+    font-size: 20px;
+}

@@ -59,44 +59,52 @@ export default function HomeCategories() {
                         <p>Shop Now</p>
                     </Link>  
                 </div>
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C2} alt="slide-img"/>
+                        <p>HeadPhone</p>
                     </Link>  
                 </div> 
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C3} alt="slide-img"/>
+                        <p>Mobiles</p>
                     </Link>  
                 </div>
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C4} alt="slide-img"/>
+                        <p>Camera</p>
                     </Link>  
                 </div> 
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C5} alt="slide-img"/>
+                        <p>Tablet</p>
                     </Link>  
                 </div> 
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C1} alt="slide-img"/>
+                        <p>Mobiles</p>
                     </Link>  
                 </div>
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C2} alt="slide-img"/>
+                        <p>Camera</p>
                     </Link>  
                 </div> 
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C3} alt="slide-img"/>
+                        <p>Tablet</p>
                     </Link>  
                 </div>
-                <div>
+                <div className='slide'>
                     <Link to="#">
                         <img src={C4} alt="slide-img"/>
+                        <p>Shop Now</p>
                     </Link>  
                 </div> 
             </Slider> 

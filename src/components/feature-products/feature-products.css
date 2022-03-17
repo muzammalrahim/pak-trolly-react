@@ -1,4 +1,6 @@
-
+.fp-main {
+    padding: 50px 0 20px 0;
+}
 .fp-main .fp-block {
     border: 1px solid #CECECE;
     box-sizing: border-box;

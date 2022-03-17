@@ -2,7 +2,7 @@ import React from 'react';
 import './search.css';
 import { Link } from 'react-router-dom';
 import Logo from '../../../images/logo.svg';
-import { FaRegHeart, FaRegUser } from "react-icons/fa";
+import { FaRegHeart, FaRegUser, FaAngleDown } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function Search() {
@@ -21,7 +21,7 @@ export default function Search() {
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 order-3 order-lg-2">
                             <div class="advanced-search">
-                                <button type="button" class="category-btn">All Categories</button>
+                                <button type="button" class="category-btn">All Categories<FaAngleDown/></button>
                                 <div class="input-group">
                                     <input type="text" placeholder="What do you need?" />
                                     {/* <button type="button"><i class="ti-search"></i></button> */}

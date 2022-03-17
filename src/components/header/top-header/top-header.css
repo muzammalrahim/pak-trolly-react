@@ -9,6 +9,13 @@ ul{
 	background: #129CB8;
 	padding: 10px 0;
 }
+li.border-right {
+    border-right: 1px solid #ffffff;
+    padding: 0 10px 0 0;
+}
+.last-child{
+	padding: 0 0 0 15px;
+}
 .header-top .left-side {
 	text-align: center;
 }

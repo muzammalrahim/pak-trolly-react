@@ -43,16 +43,20 @@
 	background: #e5e5e5;
 	content: "";
 }
-
-.inner-header .advanced-search .category-btn:after {
+.advanced-search button svg{
+	position: absolute;
+    right: 8px;
+    top: 14px;
+}
+/* .inner-header .advanced-search .category-btn:after {
 	position: absolute;
 	right: 11px;
 	top: 10px;
-	content: "3";
+	content: ">";
 	font-family: "ElegantIcons";
 	font-size: 16px;
 	color: #3C3C3C;
-}
+} */
 
 .inner-header .advanced-search .input-group {
 	max-width: 65%;
@@ -278,6 +282,13 @@
 	.inner-header .advanced-search .input-group button {
 		right: -8px;
 	}
+	.inner-header .advanced-search{
+		margin: 20px 0 10px 0;
+	}
+	.inner-header .nav-right {
+		text-align: right;
+		padding-right: 30px;
+	} 
 }
 
 /* Tablet Device: 768px */
@@ -305,13 +316,14 @@
 	}
 	.inner-header {
 		padding: 0;
+		margin-top: 15px;
 	}
-	.inner-header .logo {
+	/* .inner-header .logo {
 		text-align: center;
 	}
 	.inner-header .nav-right {
 		text-align: left;
-	}
+	} */
 	.inner-header .nav-right li:first-child {
 		margin-left: 0;
 	}
@@ -327,7 +339,11 @@
 	.search-main{
 		border-bottom: 0;
 	}
+	 
 	
+	.inner-header .nav-right {
+		padding-right: 60px;
+	}
 	.inner-header .advanced-search .category-btn {
 		display: none;
 	}
@@ -338,4 +354,17 @@
 		width: 270px;
 		padding: 20px;
 	}	
+
+}
+
+@media only screen and (max-width:375px){
+	.inner-header .nav-right {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width:320px){
+	.inner-header .nav-right {
+		padding-right: 0;
+	}
 }

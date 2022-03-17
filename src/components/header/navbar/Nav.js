@@ -1,41 +1,58 @@
-import React from 'react';
-import './nav.css';
+import React, { useState } from "react";
+import "./nav.css";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-export default function 
-() {
+import { NavLink } from "react-router-dom";
+
+
+
+const Nav = () => {
+  const [showMenu, setShowMenu] = useState(false);
   return (
-      <>
-      <div class="nav-item">
-                <div class="container">
-                    
-                    <nav class="nav-menu mobile-menu">
-                        <ul>
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Electronics</a></li>
-                            <li><a href="#">Today’s Deal</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Men's</a></li>
-                                    <li><a href="#">Women's</a></li>
-                                    <li><a href="#">Kid's</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Smart Mobiles</a></li>
-                            <li><a href="#">CCTV Camera’s</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Blog Details</a></li>
-                                    <li><a href="#">Shopping Cart</a></li>
-                                    <li><a href="#">Checkout</a></li>
-                                    <li><a href="#">Faq</a></li>
-                                    <li><a href="#">Register</a></li>
-                                    <li><a href="#">Login</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Contact</a></li> 
-                        </ul>
-                    </nav>
-                    <div id="mobile-menu-wrap"></div>
-                </div>
-            </div>
-      </>
-  )
-}
+    <>
+    
+      <nav className="main-nav">
+        <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMenu(!showMenu)}>
+              <GiHamburgerMenu />
+            </a>
+        </div>
+        {/* 2nd menu part  */}
+        <div
+          className={
+            showMenu ? "menu-link mobile-menu-link" : "menu-link"
+          }>
+            <div className="container">
+                <ul className="menu-links">
+                    <li className="active">
+                    <NavLink to="/">Home</NavLink>
+                    </li>
+                    <li>
+                    <NavLink to="#">Electronics</NavLink>
+                    </li>
+                    <li>
+                    <NavLink to="#">Today’s Deal</NavLink>
+                    </li>
+                    <li>
+                    <NavLink to="#">Smart Mobiles</NavLink>
+                    </li>
+                    <li>
+                    <NavLink to="#">CCTV Camera’s</NavLink>
+                    </li>
+                </ul>
+          </div>
+          
+        </div>
+      </nav>
+
+      
+    </>
+  );
+};
+
+export default Nav;

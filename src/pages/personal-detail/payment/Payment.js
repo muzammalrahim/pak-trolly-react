@@ -2,11 +2,17 @@ import React from 'react';
 import './payment.css';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Header from '../../../components/header/Header';
+import BreadCrum from '../../../components/bread-crums/BreadCrum';
+import Subscribe from '../../../components/subscribe/Subscribe';
+import Footer from '../../../components/footer/Footer';
 
 const Payment = () => {
     return (
         <>
-        <div>
+        <Header/>
+        <BreadCrum/>
+        <div className='container'>
             <h2>3. Shipping Method & Payment</h2>
             <form>
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 payment_tabs">
@@ -62,6 +68,8 @@ const Payment = () => {
             </Tabs>
             </form>
         </div>
+        <Subscribe/>
+        <Footer/>
         </>
     );
 }
