@@ -2,18 +2,47 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Slider from "react-slick";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import PL1 from '../../images/product_1.png';
+import PL1 from '../../images/product_22.png';
 import PL2 from '../../images/product_2.png';
+import PL3 from '../../images/product_33.png';
 import './week-deal.css';
 
 export default function WeekDeal() {
     var settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1,
-        centerMode: true,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        dots: false,
+        mobileFirst:true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
   return (
     <>
@@ -29,13 +58,22 @@ export default function WeekDeal() {
                         <div className='ws-section'>
                         <Carousel>
                             <Carousel.Item interval={10000}>
-                                <img src={PL1} alt="img"/>
+                                <div className='img-wrap'>
+                                    <img src={PL1} alt="img"/>
+                                </div>
                                 {/* <Carousel.Caption>
                                     test
                                 </Carousel.Caption> */}
                             </Carousel.Item> 
                             <Carousel.Item interval={10000}>
-                                <img src={PL2} alt="img"/>
+                            <div className='img-wrap'>
+                                    <img src={PL2} alt="img"/>
+                                </div>
+                            </Carousel.Item> 
+                            <Carousel.Item interval={10000}>
+                            <div className='img-wrap'>
+                                    <img src={PL3} alt="img"/>
+                                </div>
                             </Carousel.Item> 
                         </Carousel>
                         </div>
@@ -78,7 +116,9 @@ export default function WeekDeal() {
                                     <p>Secs</p>
                                 </div>
                             </div>
-                            <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            <div className='cart-btn'>
+                                <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            </div>
                         </div> 
                     </div>
                 </div>
@@ -89,11 +129,20 @@ export default function WeekDeal() {
                         <div className='ws-section'>
                         <Carousel>
                             <Carousel.Item interval={10000}>
-                                <img src={PL1} alt="img"/>
+                                <div className='img-wrap'>
+                                    <img src={PL1} alt="img"/>
+                                </div>
                             </Carousel.Item> 
                             <Carousel.Item interval={10000}>
-                                <img src={PL2} alt="img"/>
+                                <div className='img-wrap'>
+                                    <img src={PL2} alt="img"/>
+                                </div>
                             </Carousel.Item> 
+                            <Carousel.Item interval={10000}>
+                            <div className='img-wrap'>
+                                    <img src={PL3} alt="img"/>
+                                </div>
+                            </Carousel.Item>
                         </Carousel>
                         </div>
                         <div className='ws-info'>
@@ -135,7 +184,9 @@ export default function WeekDeal() {
                                     <p>Secs</p>
                                 </div>
                             </div>
-                            <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            <div className='cart-btn'>
+                                <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            </div>
                         </div> 
                     </div>
                 </div>
@@ -147,11 +198,20 @@ export default function WeekDeal() {
                         <div className='ws-section'>
                         <Carousel>
                             <Carousel.Item interval={10000}>
-                                <img src={PL1} alt="img"/>
+                                <div className='img-wrap'>
+                                    <img src={PL1} alt="img"/>
+                                </div>
                             </Carousel.Item> 
                             <Carousel.Item interval={10000}>
-                                <img src={PL2} alt="img"/>
+                                <div className='img-wrap'>
+                                    <img src={PL2} alt="img"/>
+                                </div>
                             </Carousel.Item> 
+                            <Carousel.Item interval={10000}>
+                            <div className='img-wrap'>
+                                    <img src={PL3} alt="img"/>
+                                </div>
+                            </Carousel.Item>
                         </Carousel>
                         </div>
                         <div className='ws-info'>
@@ -193,7 +253,9 @@ export default function WeekDeal() {
                                     <p>Secs</p>
                                 </div>
                             </div>
-                            <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            <div className='cart-btn'>
+                                <a href="#" class="primary-btn trolly-btn">Add To Trolley</a>
+                            </div>
                         </div> 
                     </div>
                 </div>

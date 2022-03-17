@@ -1,0 +1,66 @@
+.subscribe{
+    background: #129CB8;
+    padding: 20px 0;
+}
+.sl-side {
+    display: flex;
+    align-items: center;
+}
+.s-form{
+    position: relative;
+    width: 50%;
+}
+.s-text{
+    display: flex;
+}
+.sl-side p{
+    margin: 0;
+    padding: 0 20px 0 10px;
+}
+.s-form input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.s-form img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+.insta{
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .subscribe{
+        text-align: center;
+    }
+    .sl-side {
+        display: block;
+    } 
+    .s-form {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .s-text{
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 479px) {
+    .s-form {
+        width: 100%;
+        margin: 20px auto;
+    }
+}

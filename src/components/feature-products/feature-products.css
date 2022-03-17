@@ -1,0 +1,113 @@
+
+.fp-main .fp-block {
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+	display: flex;
+	margin: 0 10px;
+	align-items: center;
+}
+.fp-inner{
+    align-items: center;
+}
+/* .deal-of-week .main-title h2{
+	border-bottom: 1px solid #E6E6E6;
+	margin: 0 0 30px 0;
+} */
+.fp-main .f-reviews {
+    padding: 10px 0 5px 0;
+}
+.fp-main  .slick-slide img{
+    width: 100%;
+}
+.fp-main .ws-info .section-title h5{
+	font-size: 16px;
+	color: #3C3C3C;
+}
+.fp-main .ws-info .section-title p{
+	font-size: 14px;
+	color: #969696;
+}
+.fp-main .old-proce{
+	font-size: 16px;
+	color: #969696;
+	font-weight: 500;
+	text-decoration: line-through;
+}
+.fp-main .new-proce{
+	font-size: 18px;
+	color: #129CB8;
+	font-weight: 500;
+	padding: 0 0 0 10px;
+}
+.fp-main .star svg{
+	color: #F3B004;
+}
+.fp-main .fp-main span.rc {
+    font-size: 14px;
+    color: #9c9c9c;
+    padding: 0 0 0 20px;
+}
+.fp-main .fp-section{
+	border-right: 1px solid #E6E6E6;
+}
+.fp-main .cart-btn{
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ Responsive Media Styles ---------------------------- */
+
+
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* Medium Device: 1200px */
+
+
+@media only screen and (max-width: 1024px) {
+	.fp-main .wd-block{
+		flex-direction: column;
+	}
+	.section-title{
+		padding: 20px 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	
+}
+
+
+/* .slick-prev:before, .slick-next:before{
+	color: #000000 !important;
+}
+.slick-prev, .slick-next{
+	top: -45px !important;
+}
+
+.slick-prev{
+	right: 30px !important;
+	left: unset !important;
+}
+.slick-next{
+	right: 0 !important;
+}
+ */
+
+

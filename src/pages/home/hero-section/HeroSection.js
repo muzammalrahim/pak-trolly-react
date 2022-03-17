@@ -12,7 +12,7 @@ export default function HeroSection() {
                     {/* <img
                     className="d-block w-100"
                     src={Slide1}
-                    alt="First slide"
+                    alt="First slide"b 
                     /> */}
                     <Carousel.Caption>
                     <p>Up To 40% Discount</p>

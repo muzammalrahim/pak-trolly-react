@@ -1,9 +1,29 @@
 .partner-logo {
-	background: #303030;
+	background: #E6E6E6;
 	padding: 38px 0;
 }
-
-.logo-carousel .logo-item {
+/* .partner-logo .slick-arrow{
+	display: none !important;
+} */
+.tablecell-inner{
+	background: #ffffff;
+	margin: 0 10px 0 0;
+	width: 200px;
+	height: 100px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	overflow: hidden;
+}
+.tablecell-inner img{
+	width: auto;
+}
+.tablecell-inner:hover{
+	background: rgba(255, 255, 255, 0.83);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+}
+/* .logo-carousel .logo-item {
 	display: table;
 }
 
@@ -16,4 +36,9 @@
 .owl-carousel .owl-item img {
 	display: block;
 	width: auto;
+} */
+@media only screen and (max-width: 479px) {
+	.tablecell-inner{
+		width: 100%;
+	}
 }
