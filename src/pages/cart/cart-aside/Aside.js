@@ -7,7 +7,7 @@ const Aside = () => {
         <>
         <div className="aside_info">
             <div className="itens_info">
-                <ul>
+                <ul >
                     <li className="clearfix">
                         <span>4 Items</span>
                         <span className="price-itam">$ 120.00</span>
@@ -19,8 +19,8 @@ const Aside = () => {
                 </ul>
                 <button className="proceed-btn" type="button">Proceed To Checkout</button>
             </div>
-            <div className="security_bg clearfix">
-        <ul>
+            <div className="security_bg2 clearfix">
+        <ul className="aside-ul">
             <li className='clearfix'>
                 <i><FaUnlockAlt /></i><p><span>Security policy</span>(edit with the Customer Reassurance module)</p>
             </li>

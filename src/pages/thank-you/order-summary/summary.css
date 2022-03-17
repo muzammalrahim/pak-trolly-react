@@ -9,7 +9,7 @@
     padding: 20px;
     border-radius: 5px;
 }
-.price-tag {
+.summary-info .price-tag {
     float: right;
 }
 .summary-info ul li {

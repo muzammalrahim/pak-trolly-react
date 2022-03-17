@@ -23,7 +23,7 @@
 .rating_star {
     text-align: left;
 }
-.hot_deal {
+review-info .hot_deal {
     float: left;
     padding-top: 27px;
     padding-left: 30px;
