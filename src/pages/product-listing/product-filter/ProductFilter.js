@@ -1,5 +1,6 @@
 import React from 'react';
 import './product-filter.css';
+import { FaStar } from "react-icons/fa";
 import webroukCustomRange from "https://cdn.skypack.dev/webrouk-custom-range@1.0.2";
 
 const ProductFilter = () => {
@@ -65,7 +66,7 @@ const ProductFilter = () => {
             <div className='filter_box'>
                 <h2>Color</h2>
                 <ul className="color-selector">
-                    <li className="Active_color"><span className='color_blue'></span></li>
+                    <li className="active_color"><span className='color_blue'></span></li>
                     <li><span className='color_red'></span></li>
                     <li><span className='color_black'></span></li>
                     <li><span className='color_yellow'></span></li>
@@ -179,42 +180,42 @@ const ProductFilter = () => {
                 <h2>Ratings</h2>
                 <ul className="hot_deal rating_stars">
                     <li className="deal_hot">
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
                     </li>
                     <li className="deal_hot">
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
                         <span>And Up </span>
                     </li>
                     <li className="deal_hot">
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
+                    <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
                         <span>And Up </span>
                     </li>
                     <li className="deal_hot">
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
+                    <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
                         <span>And Up </span>
                     </li>
                     <li className="deal_hot">
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star yellow"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
-                        <i className="fa fa-star gray"></i>
+                    <i className="yellow"><FaStar /></i>
+                        <i className="yellow"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
+                        <i className="gray"><FaStar /></i>
                         <span>And Up </span>
                     </li>
                 </ul>

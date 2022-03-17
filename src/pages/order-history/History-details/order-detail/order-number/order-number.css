@@ -1,0 +1,19 @@
+.number-order {
+    background: #EDFCFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.number-order strong {
+    font-size: 20px;
+}
+.number-order span {
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.number-order p {
+    color: #969696;
+    margin: 0;
+    font-size: 16px;
+}

@@ -1,0 +1,198 @@
+.info_wrapper{
+    text-align: left;
+    margin: 30px 0;
+}
+.info_wrapper h2{
+    font-size: 20px;
+}
+.price-tag span {
+    padding-right: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.old_price {
+    color: #969696;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.new_price {
+    font-size: 22px !important;
+    color: #129CB8;
+    font-weight: 600;
+}
+.review-starts-new li i{
+    padding: 0 3px;
+}
+.review-starts-new li .yellow{
+    color: #F3B004;
+}
+.review-starts-new li .gray{
+    color: #e6e6e6;
+}
+.review-starts-new {
+    text-align: left;
+}
+.info_wrapper .price-tag {
+    display: block !important;
+    float: none;
+}
+.info_wrapper h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.review-starts-new .info-review{
+    float: left;
+    padding-left: 20px;
+}
+.review-starts-new .info-review span{
+    float: left;
+    padding:0 10px;
+}
+.review-starts-new .stars{
+    float: left;
+}
+.info-review a {
+    color: #129cb8;
+    font-size: 16px;
+    font-weight: 500;
+}
+.items_list{
+    color: #30744D;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.size_select label {
+    font-weight: 600;
+    float: left;
+    width: 150px;
+    padding: 8px 0 0;
+    font-size: 16px;
+}
+.color-selector {
+    padding-top: 6px;
+}
+.select_size{
+    float: left;
+    width: 150px;
+    position: relative;
+}
+select_size2{
+    float: left;
+    position: relative;
+}
+.size_select{
+    margin-top: 15px;
+}
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+} 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 0 !important;
+}
+.select_size span{
+    color: #808080;
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 14px;
+    display: inline-block;
+}
+.buttons_info{
+    margin: 30px 0;
+}
+.buttons_info button{
+    margin: 0 15px 0 0;
+    background: #E6F4F7;
+    border: 1px solid #E6F4F7;
+    color: #129CB8;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    border: 5px;
+    transition: all 0.3s;
+}
+.buttons_info i{
+    margin: 0 5px 0 0;
+}
+.buttons_info button:hover{
+    margin: 0 15px 0 0;
+    background: #129CB8;
+    border: 1px solid #129CB8;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    border: 5px;
+    transition: all 0.3s;
+}
+.social_btn button{
+    margin: 0 15px 0 0;
+    background: #129CB8;
+    border: 1px solid #129CB8;
+    color: #ffffff;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 45px;
+    float: left;
+    border-radius: 5px;
+    border: 5px;
+    transition: all 0.3s;
+}
+.social_btn button:hover{
+    background: #ffffff;
+    border: 1px solid #129CB8;
+    color: #129CB8;
+    transition: all 0.3s;
+}
+.social_icons{
+    float: right;
+}
+.social_icons li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.social_icons li a{
+    color: #129CB8;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.social_icons li a:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+@media (max-width:1200px){
+    .buttons_info button {
+        padding: 5px 15px;
+    }
+}
+@media (max-width:991px){
+    .buttons_info button {
+        margin-bottom: 20px;
+    }
+    .buttons_info {
+        margin: 30px 0 0;
+    }
+}
+@media (max-width:479px){
+    .buttons_info button {
+        width: 100%;
+        display: block;
+    }
+    .social_btn button {
+        display: block;
+        width: 100%;
+    }
+    .social_icons {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .size_select label {
+        width: 110px;
+    }
+}

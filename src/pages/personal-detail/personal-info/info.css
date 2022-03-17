@@ -1,0 +1,123 @@
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #129CB8;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+h2{
+    margin-bottom: 30px;
+    color:#129CB8;
+    font-size: 24px;
+}
+
+.title_social {
+    float: left;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.gender_info span {
+    width: 80px;
+    display: inline-block;
+    font-size: 18px;
+}
+.social-title{
+    margin-bottom: 30px;
+}
+.title_info{
+    margin-bottom: 30px;
+}
+.title_info label{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.save-time{
+    color: #969696;
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+.continue_btn{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #129CB8;
+    border: 1px solid #129CB8;
+    padding: 0 30px;
+    height: 45px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.continue_btn:hover{
+    background: #ffffff;
+    color: #129CB8;;
+    border: 1px solid #129CB8;
+    transition: all 0.3s;
+}
+.client_info{
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.form-group input:checked + label:after {
+    top: 9px;
+}
+@media (max-width:767px){
+    .title_social {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+@media (max-width:360px){
+    .gender_info span {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}

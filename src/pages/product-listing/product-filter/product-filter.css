@@ -58,7 +58,20 @@ webrouk-custom-range {
 }
 .color-selector li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 4px !important;
+    transition: all 0.3s;
+    border: 1px solid #129cb800;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.color-selector li:hover{
+    display: inline-block;
+    padding: 4px !important;
+    border: 1px solid #129cb8 !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
 }
 .color-selector li span{
     width: 20px;
@@ -80,6 +93,14 @@ webrouk-custom-range {
 }
 .color_pink{
     background: #FF00B4;
+}
+.active_color {
+    display: inline-block;
+    padding: 4px !important;
+    border: 1px solid #129cb8 !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 .rating_stars li i{
     padding: 0 3px;
@@ -115,6 +136,7 @@ webrouk-custom-range {
         display: block;
         font-weight: 500;
         border-radius: 5px;
+        margin-top: 30px;
     }
     .filter_btn::after {
         display: block;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './listing.css';
-import { FaHeart, FaExchangeAlt, FaEye } from "react-icons/fa";
+// import '../../../../public/assets/css/style.css';
+import { FaHeart, FaExchangeAlt, FaEye, FaAngleDown } from "react-icons/fa";
 import PL1 from '../../../../src/images/product_1.png';
 import PL2 from '../../../../src/images/product_2.png';
 import PL3 from '../../../../src/images/product_3.png';
@@ -12,12 +13,15 @@ const Listing = () => {
         <div>
             <div className="items_info clearfix">
                 <span className="pull-left">427 items</span>
-                <select className="form-control pull-right">
+                <div className="sort_section">
+                <select className="form-control sort_select pull-right">
                     <option>Sort By</option>
                     <option>Sort By</option>
                     <option>Sort By</option>
                     <option>Sort By</option>
                 </select>
+                <i className='down-caret'><FaAngleDown /></i>
+                </div>
             </div>
             <div className="row">
                 <div className="col-md-4">

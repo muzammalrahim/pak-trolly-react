@@ -1,0 +1,39 @@
+.question_ans p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+.question_ans a{
+    font-size: 22px;
+    color: #129CB8;
+    padding-left: 5px;
+    text-decoration: underline !important;
+    transition: all 0.3s;
+}
+.question_ans a:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+.ask-question p{
+    color: #129CB8;
+    font-weight: 500;
+    font-size: 20px;
+}
+.ask-question i{
+    float: left;
+    color: #129CB8;
+    margin-right: 10px;
+}
+.ans-tel i{
+    float: left;
+    margin-right: 10px;
+}
+.no-ques{
+    margin: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+.ans-tel p{
+    font-weight: 400;
+}

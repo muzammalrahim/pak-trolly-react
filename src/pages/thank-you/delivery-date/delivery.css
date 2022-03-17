@@ -1,0 +1,74 @@
+.delivery-date h2{
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.date-wrap {
+    background: #EDFCFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.prod-img img {
+    width: 50px;
+    float: left;
+}
+.prod-img span {
+    float: right;
+    padding: 22px 0 0;
+    font-size: 16px;
+}
+.prod-img {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.prod-delete button {
+    float: right;
+}
+.order-btn {
+    background: #129cb8;
+    color: #ffffff;
+    border: 1px solid #129cb8;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.order-btn:hover {
+    background: #ffffff;
+    color: #129cb8;
+    transition: all 0.3s;
+}
+.prod-delete span {
+    padding-top: 11px;
+    display: inline-block;
+}
+
+@media (max-width:991px){
+    .date-wrap {
+        text-align: center;
+    }
+    .delivery-date h2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .prod-delete button {
+        float: none;
+        margin: 20px 0 0;
+    }
+    .prod-img img {
+        width: 50px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .prod-img span {
+        float: none;
+        padding: 0;
+        display: block;
+    }
+    .order-number img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+}
