@@ -1,10 +1,10 @@
 .history-head {
-  font-size: 28px;
-  text-align: left;
-  color: #000000;
-  margin: 0 0 10px;
+    font-size: 28px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 10px;
 }
-.order-table-info table {
+.review-info table {
     border-collapse: collapse;
     margin: 0;
     padding: 0;
@@ -12,18 +12,18 @@
     table-layout: fixed;
   }
   
-.order-table-info .table caption {
+.review-info .table caption {
     font-size: 1.5em;
     margin: .5em 0 .75em;
   }
   
-.order-table-info table tr {
+.review-info table tr {
     padding:20px 10px;
     vertical-align: top;
   }
   
-  .order-table-info table th,
-  .order-table-info table td {
+  .review-info table th,
+  .review-info table td {
     padding:20px 10px;
     text-align: center;
   }
@@ -33,7 +33,7 @@
     letter-spacing: .1em;
     font-weight: 500;
   }
-  .order-table-info table thead {
+  .review-info table thead {
    border-bottom: 1px solid #e6e6e6;
   }
    .item-img img {
@@ -83,20 +83,20 @@
   font-weight: 400;
   font-size: 16px;
 }
-tr td span{
-  font-size: 16px;
+.send-name p{
+	color: #29B665;
+	font-size: 16px;
+	font-weight: 500;
 }
-.cancel-status
- {
-  color: #ED0202;
-  font-size: 16px;
-  font-weight: 400;
-}
-.order-table-info tbody tr {
+.review-info tbody tr {
   border-bottom: 1px solid #e6e6e6;
 }
+.review-his{
+	text-align: left;
+	font-size: 16px;
+}
 @media (max-width: 991px){
-  .order-table-info table th {
+  .review-info table th {
     font-size: 16px;
     letter-spacing: initial;
     font-weight: 500;
@@ -108,11 +108,11 @@ tr td span{
 
 }
   @media screen and (max-width: 767px) {
-    .order-table-info  table {
+    .review-info  table {
       border: 0;
     }
     
-    .order-table-info  table thead {
+    .review-info  table thead {
       border: none;
       clip: rect(0 0 0 0);
       height: 1px;
@@ -123,20 +123,20 @@ tr td span{
       width: 1px;
     }
     
-    .order-table-info table tr {
+    .review-info table tr {
       border-bottom: 3px solid #ddd;
       display: block;
       margin-bottom: .625em;
     }
     
-    .order-table-info table td {
+    .review-info table td {
       border-bottom: 1px solid #ddd;
       display: block;
       font-size: .8em;
       text-align: right;
     }
     
-    .order-table-info table td::before {
+    .review-info table td::before {
       /*
       * aria-label has no advantage, it won't be read inside a table
       content: attr(aria-label);
@@ -147,7 +147,7 @@ tr td span{
       text-transform: uppercase;
     }
     
-    .order-table-info table td:last-child {
+    .review-info table td:last-child {
       border-bottom: 0;
     }
     .detail-info h2 {
@@ -155,28 +155,31 @@ tr td span{
   }
   .detail-info .price-tag {
     float: right;
-}
-.info-size-color{
-  text-align: right !important;
-  margin-right: 10px;
-}
-.order-table-info table th, .order-table-info table td {
-  padding: 10px;
-}
-.item-img img {
-  width: 50px;
-  height: 80px;
-}
-.order-table-info table tr {
-  padding: 10px;
-  vertical-align: top;
-  background: #f8f8f8;
-  border: 1px solid #e6e6e6;
-  margin-bottom: 30px !important;
-}
-.detail-info .price-tag span {
-  padding-bottom: 0;
-}
+	}
+	.info-size-color{
+	text-align: right !important;
+	margin-right: 10px;
+	}
+	.review-info table th, .review-info table td {
+	padding: 10px;
+	}
+	.item-img img {
+	width: 50px;
+	height: 80px;
+	}
+	.review-info table tr {
+	padding: 10px;
+	vertical-align: top;
+	background: #f8f8f8;
+	border: 1px solid #e6e6e6;
+	margin-bottom: 30px !important;
+	}
+	.detail-info .price-tag span {
+	padding-bottom: 0;
+	}
+	.review-his {
+		text-align: right;
+	}
 
   }
   

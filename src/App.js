@@ -15,6 +15,11 @@ import Cart from "./pages/cart/Cart"
 import PersonalDetail from "./pages/personal-detail/PersonalDetail";
 import Thank from "./pages/thank-you/Thank";
 import Orderhistory from "./pages/order-history/OrderHistory";
+import WishList from "./pages/order-history/History-details/wish-list/WishList";
+import PersonalInfo from "./pages/personal-detail/personal-info/PersonalInfo";
+import Address from "./pages/personal-detail/address/Address";
+import Payment from "./pages/personal-detail/payment/Payment";
+import ReviewHis from "./pages/order-history/History-details/review-history/ReviewHis";
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // import {
@@ -65,7 +70,34 @@ return (
             <Route render={() => <Navigate to="/" />} /> */}
         </Routes>
         <Routes>
+            <Route path="/wishlist" element={<WishList />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        <Routes>
+            <Route path="/personal-info" element={<PersonalInfo />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        <Routes>
+            <Route path="/address" element={<Address />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        
+        <Routes>
             <Route path="/order-history" element={<Orderhistory />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+        <Routes>
+            <Route path="/payment" element={<Payment />} />
+            {/* <Route path="/lab" element={<Lab />} />
+            <Route render={() => <Navigate to="/" />} /> */}
+        </Routes>
+
+        <Routes>
+            <Route path="/review-history" element={<ReviewHis />} />
             {/* <Route path="/lab" element={<Lab />} />
             <Route render={() => <Navigate to="/" />} /> */}
         </Routes>

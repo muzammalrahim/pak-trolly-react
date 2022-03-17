@@ -1,14 +1,8 @@
-.items_info .sort_section{
-    float: right;
-    width: 200px;
-    margin-bottom: 30px;
-   cursor: pointer;
-   position: relative;
-}
-.items_info span {
-    color: #969696;
-    padding: 10px 0 0;
-    float: left;
+.history-head {
+    font-size: 28px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 10px;
 }
 .product_box_info {
     border: 1px solid #e6e6e6;
@@ -105,7 +99,7 @@
     width: 100px;
     color: #ffffff;
     display: block;
-    text-align: center;
+	text-align: center;
     position: absolute;
     left: 0;
 }

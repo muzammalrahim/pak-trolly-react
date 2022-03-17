@@ -13,11 +13,14 @@ const MyOrder = () => {
                     <TableOrder></TableOrder>
                 </Tab>
                 <Tab eventKey="Computer & Laptop" title="Received">
+                    <TableOrder></TableOrder>
                 </Tab>
 
                 <Tab eventKey="Mobile & Tablet" title="Canceled">
+                    <TableOrder></TableOrder>
                 </Tab>
                 <Tab eventKey="In Processor" title="In Processor">
+                    <TableOrder></TableOrder>
                 </Tab>
 
             </Tabs>

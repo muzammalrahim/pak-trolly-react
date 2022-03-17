@@ -9,7 +9,7 @@
 }
 .history-side li a {
     color: #3c3c3c;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 5px 0;
     display: block;
@@ -18,4 +18,10 @@
 .history-side li a:hover {
     color:#129CB8;
     transition: all 0.3s;
+}
+@media (max-width:991px){
+    .history-side li a {
+        font-size: 16px;
+    } 
+    
 }

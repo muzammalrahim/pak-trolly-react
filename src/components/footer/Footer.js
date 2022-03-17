@@ -39,19 +39,19 @@ export default function Footer() {
                         <h3 className='f-heading'>Product</h3>
                             <ul className='info'>
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/product-listing">Products</Link>  
                                 </li>
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/product-detail">Product Detail</Link>  
                                 </li> 
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/wishlist">Wishlist</Link>  
                                 </li> 
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/cart">Cart</Link>  
                                 </li> 
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="thank-you">Thank You</Link>  
                                 </li>    
                             </ul>
                         </div>
@@ -61,16 +61,16 @@ export default function Footer() {
                             <h3 className='f-heading'>Company</h3>
                             <ul className='info'>
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/personal-info">Personal Info</Link>   
                                 </li>
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="/payment">Payment</Link>   
                                 </li> 
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="order-history">Order History </Link>  
                                 </li> 
                                 <li>
-                                    <Link to="#">Lorem Ipsum </Link>  
+                                    <Link to="review-history">Review History </Link>  
                                 </li> 
                                 <li>
                                     <Link to="#">Lorem Ipsum </Link>  
