@@ -4,7 +4,7 @@ import './info.css';
 const PersonalInfo = () => {
     return (
         <>
-        <div>
+        <div className="Container">
             <h2>1. Personal Information</h2>
             <form>
                 <div className="row client_info">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 import ProductSlider from '../product-detail/product-slider/ProductSlider';
 import ProductInfo from '../product-detail/product-info/ProductInfo';
 import SecurityInfo from '../product-detail/security-detail/SecurityInfo';
@@ -9,10 +10,10 @@ import Question from '../product-detail/question-answer/Question';
 
 const Productdetails = () => {
     return (
-        <div>
+        <>
         <Header></Header>
         <div className="container">
-            <div className="row">
+            <div className="row mb-5">
                 <div className="col-md-5">
                 <ProductSlider></ProductSlider>
                 </div>
@@ -25,7 +26,8 @@ const Productdetails = () => {
             <Reviews></Reviews>
             <Question></Question>
         </div>
-    </div>
+        <Footer></Footer>
+    </>
     );
 }
 
