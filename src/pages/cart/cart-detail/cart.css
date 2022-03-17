@@ -1,15 +1,15 @@
-.price-tag span {
+.cart-info .price-tag span {
     padding-right: 10px;
     font-size: 16px;
     padding-bottom: 10px;
     display: inline-block;
 }
-.old_price {
+.cart-info .old_price {
     color: #969696;
     font-size: 16px;
     text-decoration: line-through;
 }
-.new_price {
+.cart-info .new_price {
     font-size: 22px !important;
     color: #129CB8;
     font-weight: 600;
@@ -18,6 +18,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
+    color: #000000;
 }
 .shopping_cat {
     border: 1px solid #e6e6e6;
