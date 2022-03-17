@@ -1,5 +1,6 @@
 import React from 'react';
 import './search.css';
+import { Link } from 'react-router-dom';
 import Logo from '../../../images/logo.svg';
 import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -13,9 +14,9 @@ export default function Search() {
                     <div class="row" style={{overflow: "hidden"}}>
                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 order-1">
                             <div class="logo">
-                                <a href="#">
+                                <Link to ="/">
                                     <img src={Logo} alt='logo'/>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 order-3 order-lg-2">
